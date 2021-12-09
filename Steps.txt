@@ -1,0 +1,15 @@
+- This will run you through initializing your project, -y means yes: npm init -y
+- This will install express: npm i express
+
+- node filename : this will run the server with the filename mentioned
+
+- npm i -D nodemon : installs nodemon as dev-dependancy
+
+- Paste this in package.json to use nodemon:
+
+    "scripts": {
+        "start": "node index",
+        "dev" : "nodemon index"
+    },
+
+- npm run dev : It is used by test, start, restart and stop commands in the scripts
